@@ -12,7 +12,7 @@ body {
 }
 
 /* for list-group-items nested within a list-group-item, reset the bottom
-   padding of the last item, b/c the containing item has paddimg already 
+   padding of the last item, b/c the containing item has paddimg already
  */
 .list-group-item .list-group-item:last-child {
     padding-bottom: 0px;
@@ -78,6 +78,14 @@ a, a:hover {
     color: inherit;
 }
 
+.center {
+  width: 100px;
+  height: auto;
+  position: relative;
+  text-align:center; /* center align the text inside the box */
+  margin:auto;
+}
+
 .entry-content a {
     text-decoration: none;
     border-bottom: 1px dotted;
@@ -129,7 +137,6 @@ figure.floatleft, .align-left {
 figure.floatcenter, .align-center {
     margin-bottom: 11px;
 }
-
 .highlighttable pre {
     /* Removes bootstrap default margin-bottom */
     margin-bottom: 0px;
@@ -175,7 +182,7 @@ figure.floatcenter, .align-center {
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: scroll;
-    background-size: cover; 
+    background-size: cover;
     background-color: #C4C4C4;
     margin: 0 0 20px;
     padding: 70px 0; /*controls padding around inner text*/
